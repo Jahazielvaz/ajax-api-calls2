@@ -1,3 +1,12 @@
 .hide{
-  display: none;
+  visibility: hidden;
+  transform: scale(.75);
+}
+
+/* #btn{
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+} */
+
+#btn{
+  transition: 2s;
 }

@@ -10,7 +10,8 @@ THINGS TO INTERNALIZE
 
 NEW CONCEPTS
 - insertAdjacentHTML(): I'm not fully sure how this method works, but I think it's another way of generating HTML elements on the fly. I believe the first parameter specifies where you want the new html element/s to show, and the second parameter is the html we want to add. From what I can see, this method really only messes with the inner text of the html. I need to research it a bit more.
-- Apparently if you're trying to increment a number stored in a variable, it only persists if the original variable is outside of the function. I think the reason is because when you create the variable inside of the function, the function is creating it every time, whereas if it's outside of the function, it is permanently created, and therefore persistent 
+- Apparently if you're trying to increment a number stored in a variable, it only persists if the original variable is outside of the function. I think the reason is because when you create the variable inside of the function, the function is creating it every time, whereas if it's outside of the function, it is permanently created, and therefore persistent
+- SUPER IMPORTANT!!!: I finally learned how to use a transition on an element I'm trying to hide. The key is instead of using display: none, you use visibility: hidden; It does the exact same thing, but transitions work on it.
 
 
 
