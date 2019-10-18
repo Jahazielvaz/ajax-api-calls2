@@ -1,0 +1,9 @@
+THINGS TO INTERNALIZE
+-XMLHttpRequest: All web browsers have a built in tool named XMLHttpRequest
+  This tool allows us to establish a connection with the target url, and allows us to send and receive data.
+  This tool allows us to make api calls to other websites
+- .open(): This is the method that actually takes in your command as to what you want to do with the XMLHttpRequest() method. This method takes 2 arguments. The first one is whether we want to send or receive data. Here you specify what kind of request it is. You can make crud requests here.
+  The second argument is the url that you want to talk to.
+- .onload(): In this method we specify what should happen once the data is loaded.
+- responseText: This is how you actually access the JSON data that you retrieved from the api. It's kind of the equivalent of req.body
+- .send(): In order for the request to actually go through, you need to send the request with the .send() method
