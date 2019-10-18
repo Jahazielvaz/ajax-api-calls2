@@ -15,6 +15,9 @@ btn.addEventListener('click', () => {
     myRequest.send();
 
     counter++
+    if(counter > 3){
+      btn.classList.add('hide')
+    }
 })
 
 let renderHTML = (data) => {
