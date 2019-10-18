@@ -7,3 +7,13 @@ THINGS TO INTERNALIZE
 - .onload(): In this method we specify what should happen once the data is loaded.
 - responseText: This is how you actually access the JSON data that you retrieved from the api. It's kind of the equivalent of req.body
 - .send(): In order for the request to actually go through, you need to send the request with the .send() method
+
+NEW CONCEPTS
+- insertAdjacentHTML(): I'm not fully sure how this method works, but I think it's another way of generating HTML elements on the fly. I believe the first parameter specifies where you want the new html element/s to show, and the second parameter is the html we want to add. From what I can see, this method really only messes with the inner text of the html. I need to research it a bit more. 
+
+
+
+
+
+
+//////////////////////////
