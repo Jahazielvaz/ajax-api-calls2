@@ -7,8 +7,12 @@ btn.addEventListener('click', () => {
 
     myRequest.onload = () => {
       let animals = JSON.parse(myRequest.responseText);
-      console.log(animals[0])
+      renderHTML(animals)
     }
 
     myRequest.send();
 })
+
+let renderHTML = (animals) => {
+   console.log(animals)
+}
